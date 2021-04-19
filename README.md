@@ -14,7 +14,7 @@ Basically **Super Simple Oscylolator** is:
 - BC337 NPN transistor
 - 3.5mm mini jack
 
-	![SuperSimpleOscylator](SuperSimpleOscylator/doc/SuperSimpleOscylator.pdf)
+	![SuperSimpleOscylator](SuperSimpleOscylator/doc/g13622.png)
 
 ## Links
 1. https://www.youtube.com/user/sourceryone
