@@ -22,7 +22,7 @@ F 1 "BC337" H 6491 3705 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6500 3675 50  0001 L CIN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 6300 3750 50  0001 L CNN
 	1    6300 3750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R1
@@ -101,7 +101,6 @@ Wire Wire Line
 	7000 3850 7000 3550
 Wire Wire Line
 	7000 3550 6400 3550
-Connection ~ 6400 3550
 Text GLabel 6400 2800 1    50   Input ~ 0
 9V
 Wire Wire Line
@@ -158,4 +157,5 @@ Wire Wire Line
 	6000 4150 6000 4050
 Wire Wire Line
 	6000 4050 6400 4050
+Connection ~ 6400 3550
 $EndSCHEMATC

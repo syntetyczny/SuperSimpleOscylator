@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_BJT:BC337 Q?
+L Transistor_BJT:BC337 Q1
 U 1 1 607DE5D3
 P 6300 3750
-F 0 "Q?" H 6491 3796 50  0000 L CNN
+F 0 "Q1" H 6491 3796 50  0000 L CNN
 F 1 "BC337" H 6491 3705 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6500 3675 50  0001 L CIN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 6300 3750 50  0001 L CNN
@@ -25,10 +25,10 @@ F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 6300 3
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 607DEB60
 P 6400 3000
-F 0 "R?" H 6470 3046 50  0000 L CNN
+F 0 "R1" H 6470 3046 50  0000 L CNN
 F 1 "1k" H 6470 2955 50  0000 L CNN
 F 2 "" V 6330 3000 50  0001 C CNN
 F 3 "~" H 6400 3000 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 6400 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV1
 U 1 1 607DF31D
 P 6400 3300
-F 0 "RV?" H 6330 3346 50  0000 R CNN
+F 0 "RV1" H 6330 3346 50  0000 R CNN
 F 1 "50k" H 6330 3255 50  0000 R CNN
 F 2 "" H 6400 3300 50  0001 C CNN
 F 3 "~" H 6400 3300 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 6400 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 607DF9A8
 P 6400 4250
-F 0 "R?" H 6470 4296 50  0000 L CNN
+F 0 "R2" H 6470 4296 50  0000 L CNN
 F 1 "1R" H 6470 4205 50  0000 L CNN
 F 2 "" V 6330 4250 50  0001 C CNN
 F 3 "~" H 6400 4250 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "~" H 6400 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C1
 U 1 1 607DFEC9
 P 7000 4000
-F 0 "C?" H 7118 4046 50  0000 L CNN
+F 0 "C1" H 7118 4046 50  0000 L CNN
 F 1 "47uF" H 7118 3955 50  0000 L CNN
 F 2 "" H 7038 3850 50  0001 C CNN
 F 3 "~" H 7000 4000 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "~" H 7000 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 607E09C0
 P 6400 4600
-F 0 "#PWR?" H 6400 4350 50  0001 C CNN
+F 0 "#PWR0101" H 6400 4350 50  0001 C CNN
 F 1 "GND" H 6405 4427 50  0000 C CNN
 F 2 "" H 6400 4600 50  0001 C CNN
 F 3 "" H 6400 4600 50  0001 C CNN
